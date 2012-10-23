@@ -164,7 +164,7 @@
         It will not be rotated or scaled.
         
     -->
-    <div class="step" data-x="0" data-y="0" data-scale="4" style="text-align: center">
+    <div class="step" data-x="0" data-y="-1000" data-scale="4" style="text-align: center">
         <img src="images/yeoman.png" height="500"></img>
         <p>
             Yeoman.io<br>
@@ -172,7 +172,7 @@
         </p>
     </div>
 
-    <div class="step slide" data-x="-1500" data-y="2000">
+    <div class="step slide" data-x="0" data-y="1000">
         <q>About Me</q>
         <ul>
             <li>Just moved to Nashville last year</li>
@@ -182,26 +182,11 @@
         </ul>
     </div>
 
-    <!--
-        
-        The `id` attribute of the step element is used to identify it in the URL, but it's optional.
-        If it is not defined, it will get a default value of `step-N` where N is a number of slide.
-        
-        So in the example below it'll be `step-2`.
-        
-        The hash part of the url when this step is active will be `#/step-2`.
-        
-        You can also use `#step-2` in a link, to point directly to this particular step.
-        
-        Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
-        Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
-        
-    -->
-    <div class="step slide" data-x="-500" data-y="2000">
-        <q>Why do we need a tool like Yeoman?</q>
+    <div class="step slide" data-x="-1500" data-y="2000">
+        <q>Why do we need tools to help with client-side development?</q>
     </div>
 
-    <div class="step slide" data-x="500" data-y="2000">
+    <div class="step slide" data-x="-500" data-y="2000">
         <q>What is Yeoman?</q>
         <h2>A <i>very</i> <b>OPINIONATED</b> development stack</h2>
         <ul style="margin-left: 50px">
@@ -215,7 +200,7 @@
         </p>
     </div>
 
-    <div class="step slide" data-x="1500" data-y="2000">
+    <div class="step slide" data-x="500" data-y="2000">
         <q>What <i>really</i> is Yeoman?</q>
         <ul>
             <li>A series of custom grunt tasks</li>
@@ -224,16 +209,15 @@
         </ul>
     </div>
 
-    <!--
-        
-        This is an example of step element being scaled.
-        
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to it's correct size.
-        
-    -->
+    <div class="step slide" data-x="1500" data-y="2000">
+        <q>What is Grunt?</q>
+        <ul>
+            <li>A foundation for command-line tools written in Node.js</li>
+            <li>Provides helper methods</li>
+            <li>Easily extensible with custom grunt tasks</li>
+        </ul>
+    </div>
+
     <div class="step title" data-x="0" data-y="3000" data-scale="3" style="text-align: center">
         <h1>DEMO</h1>
     </div>
@@ -261,7 +245,7 @@
         <h1>DEMO</h1>
     </div>
 
-    <div class="step" data-x="4000" data-y="2500" data-scale="10">
+    <div class="step" data-x="4000" data-y="1500" data-scale="10">
         <h1 style="font-size: 100px; text-align: right">Questions?</h1>
     </div>
 
