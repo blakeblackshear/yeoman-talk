@@ -176,26 +176,37 @@
         <q>About Me</q>
         <ul>
             <li>Just moved to Nashville last year</li>
-            <li>Work for NextGxDx</li>
             <li>.NET consulting background</li>
+            <li>Work for NextGxDx</li>
             <li>First started developing in JavaScript with webOS apps</li>
         </ul>
+        <div style="margin-top: 100px">
+            <img src="images/nextgxdx.png" style="margin-left: 150px" height="100" align="left"></img>
+            <img src="images/openwebos.png" style="margin: 15px 170px 0px 0px" height="70" align="right"></img>
+        </div>
     </div>
 
     <div class="step slide" data-x="-1500" data-y="2000">
         <q>Why do we need tools to help with client-side development?</q>
+        <ul>
+            <li>Strong trend moving towards HTML-JS-CSS apps</li>
+            <li>Even Microsoft is doing it (Win8 and VS2012)</li>
+            <li>New problems arise when doing more than a few jQuery animations client-side</li>
+            <li>Current tools are more suited towards server-side</li>
+        </ul>
     </div>
 
     <div class="step slide" data-x="-500" data-y="2000">
         <q>What is Yeoman?</q>
-        <h2>A <i>very</i> <b>OPINIONATED</b> development stack</h2>
+        <h2>A <i>very</i> <b>OPINIONATED</b> collection of tools</h2>
         <ul style="margin-left: 50px">
-            <li>Workflow</li>
             <li>Generators</li>
             <li>Grunt tasks</li>
             <li>Package management</li>
+            <li>Open source</li>
+            <li>Command line interface</li>
         </ul>
-        <p style="margin-top: 50px">
+        <p style="margin-top: 50px; font-size: 25px">
             Yeoman is developed by <a href="http://github.com/paulirish">Paul Irish</a>, <a href="http://github.com/addyosmani">Addy Osmani</a>, <a href="http://github.com/sindresorhus">Sindre Sorhus</a>, <a href="http://github.com/mklabs">Mickael Daniel</a>, <a href="http://github.com/ebidel">Eric Bidelman</a>, and the <a href="http://github.com/yeoman/yeoman">Yeoman Community</a>.
         </p>
     </div>
@@ -203,9 +214,10 @@
     <div class="step slide" data-x="500" data-y="2000">
         <q>What <i>really</i> is Yeoman?</q>
         <ul>
+            <li>Not much to it</li>
             <li>A series of custom grunt tasks</li>
             <li>A port of the Rails Generator to Node</li>
-            <li>A wrapper around bower</li>
+            <li>A passthrough for bower</li>
         </ul>
     </div>
 
@@ -215,6 +227,12 @@
             <li>A foundation for command-line tools written in Node.js</li>
             <li>Provides helper methods</li>
             <li>Easily extensible with custom grunt tasks</li>
+            <ul style="margin-left: 40px">
+                <li>spell - Spellchecking</li>
+                <li>heroku-deploy</li>
+                <li>crush - image optimizer</li>
+                <li>type - typescript compiler</li>
+            </ul>
         </ul>
     </div>
 
@@ -225,10 +243,10 @@
     <div class="step slide" data-x="-500" data-y="4000">
         <q>My thoughts</q>
         <ul>
-            <li>Simplicity > Flexibility</li>
-            <li>Great for new projects</li>
-            <li>Brings consistency to web development</li>
+            <li>Great for new projects where you use the same tools</li>
             <li>Love the awareness it brings to client-side development</li>
+            <li>Favors Simplicity > Flexibility</li>
+            <li>So much change and lack of standards means you need the flexibility</li>
         </ul>
     </div>
 
@@ -236,7 +254,7 @@
         <q>How did we use Yeoman?<br>We didn't.</q>
         <ul>
             <li>Thin layer on top of grunt that makes it difficult to customize to your tools/workflow</li>
-            <li>Can accomplish most of the same goals with custom/existing grunt tasks</li>
+            <li>Can accomplish the same goals with custom/existing grunt tasks</li>
             <li>Ended up porting the best parts to custom grunt tasks</li>
         </ul>
     </div>
